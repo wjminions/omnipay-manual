@@ -1,0 +1,28 @@
+{
+    "name": "wjminions/omnipay-manual",
+    "type": "library",
+    "description": "Manual driver for the Omnipay payment processing library",
+    "keywords": [
+        "gateway",
+        "manual gateway service",
+        "merchant",
+        "manual",
+        "omnipay",
+        "pay",
+        "payment"
+    ],
+    "homepage": "https://github.com/wjminions/omnipay-manual",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wjminions",
+            "homepage": "https://github.com/wjminions/omnipay-manual"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Omnipay\\Manual\\" : "src/" }
+    },
+    "require": {
+        "omnipay/common": "~2.0"
+    }
+}
