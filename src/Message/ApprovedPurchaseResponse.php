@@ -47,28 +47,13 @@ class ApprovedPurchaseResponse extends AbstractResponse implements RedirectRespo
     {
         $html = <<<eot
 <html>
-
 <head>
-    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
+<title>人工支付</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
 </head>
-
 <body>
-<p style="text-align:center;">
-    <img src="https://c.ap1.content.force.com/servlet/servlet.ImageServer?id=01590000008h62j&oid=00D90000000sUDO" alt="Main Order Home Page"/>
-</p>
-
-<br><br><br><br>
-
-<h1 align="center"> Please Wait for a moment</h1>
-
-<h2 align="center"><u>Order Summary</u></h2>
-
-<p style="text-align:center;"><strong> Order Amount : {$order_amount}</p>
-
-<p style="text-align:center;">
-    Currency&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: {$order_currency}</strong> </p>
-<br>
-
+<h2 align="center">人工支付訂單已生成</h2>
 </body>
 </html>
 eot;
